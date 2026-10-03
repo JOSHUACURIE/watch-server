@@ -10,3 +10,6 @@ const likesSchema=new mongoose.Schema({
         ref:"Video"
     }
 },{timestamps:true})
+
+
+///to be added later is commentslike model
