@@ -12,6 +12,7 @@ const videoSchema= new mongoose.Schema({
     },
     description:String,
     videoUrl:String,
+    duration:String,
     thumbnailUrl:String,
     visibility:{
         type:String,
